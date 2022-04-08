@@ -1,0 +1,163 @@
+:root{
+    --navy-blue : #0E185F;
+    --light-blue : #2FA4FF;
+    --light-green : #00FFDD;
+    --flash-yellow : #E8FFC2;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    padding:5px 50px;
+    background-color: var(--navy-blue);
+    margin-bottom: 100px;
+    z-index: 9999.99;
+}
+
+.navbar-toggler{
+    color: var(--light-green);
+}
+
+.navbar-brand{
+    color: var(--light-blue);
+}
+
+.navbar-nav > li > a{
+    color: var(--light-green);
+}
+
+section{
+    width:100%;
+    min-height:100vh;
+    padding:10px 50px;
+}
+.top-h{
+    color: var(--navy-blue);
+}
+
+#header{
+    background-color: var(--navy-blue);
+}
+
+h1.header-h{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--light-blue);
+}
+
+p.header-p{
+    color: var(--light-green);
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+p.header-p-skills{
+    color: var(--light-blue);
+}
+
+mark{
+    background-color: var(--light-green);
+    color: var(--navy-blue);
+    /* font-weight: bold; */
+}
+
+img.header-img{
+    width:400px;
+    height:400px;
+}
+
+
+/* About section styling */
+.about-h{
+    color: var(--light-blue);
+    font-weight: bold;
+}
+
+.skills-area{
+    gap: .5rem;
+}
+.skills{
+    background-color: var(--navy-blue);
+}
+
+.date{
+    color: var(--light-green);
+    color: rgb(150, 147, 147);
+}
+
+.carousel{
+    width: 420px;
+    height:500px;
+    box-sizing: border-box;
+}
+
+/* .slide-image{
+    width: 450px;
+    height:500px;
+} */
+
+.slide-image > img{
+    width:100%;
+    height: 100%;
+}
+
+
+/* work experience styling */
+.card-img-top{
+    height:200px;
+    object-fit: cover;
+}
+.card-title{
+    color: var(--navy-blue);
+    font-weight: bold;
+}
+.list-group-item{
+    font-size:14px;
+}
+.fa-check-double{
+    color: var(--navy-blue);
+}
+
+/* contact styling */
+.contact-image{
+    width:400px;
+    height:400px;
+}
+
+.social-icon-wrapper{
+    gap: .5rem;
+}
+
+footer{
+    background-color:var(--navy-blue);
+}
+.footer-h{
+    color: var(--light-blue);
+}
+.footer-h a{
+    color: var(--flash-yellow);
+    text-decoration: none;
+}
+
+.linkedin:hover,.github:hover,.gmail:hover{
+    color:var(--flash-yellow);
+    transition: 300ms ease-in;
+}
+
+/* .github:hover{
+    color:#171515;
+    transition: 300ms ease-in;
+}
+
+.gmail:hover{
+    color:#BB001B;
+    transition: 300ms ease-in;
+} */
